@@ -41,12 +41,12 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  // Handle form submission
-  signupForm.addEventListener("submit", async (event) => {
-    event.preventDefault();
+    // Handle form submission
+    signupForm.addEventListener("submit", async (event) => {
+      event.preventDefault();
 
-    const email = document.getElementById("email").value;
-    const activity = document.getElementById("activity").value;
+      const email = document.getElementById("email").value;
+      const activity = document.getElementById("activity").value;
 
     try {
       const response = await fetch(
